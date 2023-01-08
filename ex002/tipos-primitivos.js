@@ -1,4 +1,5 @@
 //string , number (int , floats) , boolean
+//undefined , null , symbol (ES2015)
 
 let minhaVar = "minha string";
 let minhavar2 = 'minha "string" com aspas duplas';
@@ -19,3 +20,9 @@ console.log(`o tipo de n2 é ${typeof n2} e seu valor é ${n2}`)
 
 const isValid = false;
 console.log (`isValid: ${isValid}`)
+
+let varteste = null
+console.log(varteste);
+console.log(typeof varteste);
+varteste = 10
+console.log(typeof varteste , varteste);
