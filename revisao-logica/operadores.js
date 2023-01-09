@@ -22,7 +22,7 @@ console.log(2 ** 3);
 
 let n3 = 25;
 //n3 = n3 + 15;
-n3 **= 2
+n3 += 2
 console.log (n3);
 
 //incremento e decremento
@@ -34,3 +34,16 @@ i++
 i++
 i++
 console.log(i);
+
+//comparaçao
+/*
+igualdade de valor ==
+igualdade de valor e tipo ===
+< , > , <= , >=
+!= valores diferentes
+!== valores e tiposs diferentes
+*/
+
+console.log(n1 , n2 , n3 );
+console.log( n1 != "10");
+console.log( n1 !== "10");
