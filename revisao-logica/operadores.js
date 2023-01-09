@@ -61,7 +61,12 @@ ter comprado bilhete
 let idade = 21
 let paispresentes = false
 let comproubilhete = false
-const podeviajar = idade >= 18 || paispresentes && comproubilhete
+const podeviajar = (idade >= 18 || paispresentes) && comproubilhete
 console.log(`pode viajar : ${podeviajar}`);
 
 
+n1 = 6 
+n2 = 8 
+let media =( n1 + n2) / 2
+console.log(`media: ${media}`);
+console.log((3 * 2 ) ** 2 )
