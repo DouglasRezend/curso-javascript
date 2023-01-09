@@ -47,3 +47,21 @@ igualdade de valor e tipo ===
 console.log(n1 , n2 , n3 );
 console.log( n1 != "10");
 console.log( n1 !== "10");
+
+//operadores logicos
+/*
+para uma pessoa viajar para o exterior
+-precisa ser maior de 18 anos
+ou
+acompanhado com os pais 
+e
+ter comprado bilhete
+*/
+
+let idade = 21
+let paispresentes = false
+let comproubilhete = false
+const podeviajar = idade >= 18 || paispresentes && comproubilhete
+console.log(`pode viajar : ${podeviajar}`);
+
+
