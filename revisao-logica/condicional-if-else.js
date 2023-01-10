@@ -1,19 +1,23 @@
-let idade = 16
+let idade = 22
 let paispresentes = false
 let comproubilhete = true
 const podeviajar = (idade >= 18 || paispresentes) && comproubilhete
 console.log(`pode viajar : ${podeviajar}`);
 
+/*let msgmaioridade = ""
+if(idade >= 18){
+    msgmaioridade = " é maior de 18 anos "
+} else {
+    msgmaioridade = " é menor de 18 anos"
+} */
+let msgmaioridade = (idade >= 18) ?  "e maior de idade": "e menor de 18 anos"
+
+
+
 if(!comproubilhete){
   console.log("nao comprou o bilhete")
 } else {
-     if ( idade>= 18){
-        console.log (" e maior de idade , pode viajar")
-
-     } else {
-        console.log( "opa !! e menor de idade")
-
-     }
+     console.log (msgmaioridade)
 }
 
 
