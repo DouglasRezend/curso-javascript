@@ -6,12 +6,13 @@ function init() {
 init()
 */
 
-(function(){
+(function(win , doc){
     let isValid = false
-    console.log(" menu" , isValid)
+    win.alert("oi mundo")
+    console.log(" menu" , isValid )
 
     function init() {
         console.log("init do menu")
     }
     init()
-})()
+})(window,)
