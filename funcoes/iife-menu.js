@@ -7,12 +7,13 @@ init()
 */
 
 (function(win , doc){
+    "use strict"
     let isValid = false
-    win.alert("oi mundo")
+ 
     console.log(" menu" , isValid )
 
     function init() {
         console.log("init do menu")
     }
     init()
-})(window,)
+})(window, document)
